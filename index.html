@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chicken Road 2 : journal des modifications et données ouvertes — Chicken Road Productions</title>
+<meta name="description" content="Journal des modifications indépendant de Chicken Road 2 : ajouts, changements et retraits documentés, données ouvertes, méthode reproductible. Public 18+, approche responsable.">
+<style>
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;max-width:760px;margin:0 auto;padding:24px;line-height:1.65;color:#1a1a1a;background:#fff}
+h1{font-size:1.8em;line-height:1.25}h2{margin-top:2em;border-bottom:2px solid #eee;padding-bottom:.3em}
+.badge{display:inline-block;background:#111;color:#fff;font-size:.8em;padding:2px 10px;border-radius:20px;margin-bottom:1em}
+table{border-collapse:collapse;width:100%;margin:1em 0}th,td{border:1px solid #ddd;padding:8px;text-align:left}th{background:#f6f6f6}
+.notice{background:#fff8e1;border-left:4px solid #f5a623;padding:12px 16px;margin:1.5em 0}
+footer{margin-top:3em;font-size:.85em;color:#666;border-top:1px solid #eee;padding-top:1em}
+a{color:#0b5fff}
+</style>
+</head>
+<body>
+<p class="badge">18+ · Jeu responsable</p>
+<h1>Chicken Road 2 : journal des modifications, données à l'appui</h1>
+<p><strong>Chicken Road 2</strong> est un jeu crash d'InOut Games : un multiplicateur monte pendant une traversée, vous encaissez avant le piège — ou vous perdez la mise. Chaque tour est déterminé par un générateur de nombres aléatoires.</p>
+<p>Ce journal documente ce qui a changé entre Chicken Road (v1) et Chicken Road 2. Chaque entrée est datée, sourcée et marquée selon son niveau de vérification : ✅ Confirmé (deux sources indépendantes) ou 🔍 À confirmer.</p>
+<h2>Ajouts — v2.0 (15/04/2025)</h2>
+<ul>
+<li><strong>Quatre modes de difficulté</strong> ✅ — Facile, Moyen, Difficile, Hardcore. La v1 n'en proposait aucun. Plus dur = plus de variance, pas plus de chances.</li>
+<li><strong>Multiplicateurs inférieurs à 1</strong> 🔍 — des tours peuvent créditer x0,7 ou x0,5 (observés sur sessions réelles, signaux joueurs) : le budget s'érode même quand « la poule avance ». Mécanique de conception, pas un bug.</li>
+</ul>
+<h2>Modifications</h2>
+<ul>
+<li><strong>RTP annoncé : 98 % → 95,5 %</strong> ✅ — confirmé par la page studio et BetFury. Un RTP est une moyenne sur des millions de tours, pas un engagement par session.</li>
+</ul>
+<h2>Retraits</h2>
+<p><strong>Aucun retrait documenté à ce jour</strong> 🔍 — cette section sera mise à jour si un retrait est confirmé.</p>
+<h2>Inchangé</h2>
+<ul>
+<li>Éditeur : InOut Games ✅</li>
+<li>Principe crash et RNG par tour ✅</li>
+<li>Accès navigateur, aucune application officielle (méfiez-vous des faux APK) ✅</li>
+<li>Prédiction impossible : les outils « prediction » sont des arnaques ✅</li>
+</ul>
+<h2>Tableau comparatif</h2>
+<table>
+<tr><th></th><th><a href="https://chickenroadproductions.com/chicken-road/">Chicken Road 1</a></th><th>Chicken Road 2</th></tr>
+<tr><td>RTP annoncé</td><td>98 %</td><td>95,5 %</td></tr>
+<tr><td>Modes de difficulté</td><td>—</td><td>4 niveaux</td></tr>
+<tr><td>Multiplicateurs &lt; 1</td><td>Non documenté</td><td>x0,7 / x0,5 observés</td></tr>
+<tr><td>Mises</td><td>Non documenté</td><td>0,01 – 200 $</td></tr>
+<tr><td>Éditeur</td><td>InOut Games</td><td>InOut Games</td></tr>
+</table>
+<p>Données brutes en CSV et méthode complète dans le <a href="https://github.com/chickenroadproductions/chicken-road-2-changelog">dépôt GitHub</a> (ouvertes, réutilisables).</p>
+<h2>Méthode en bref</h2>
+<p>Sources consultées le 27/09/2026 : page studio InOut Games, fiche BetFury, vérification Casino.guru, signaux joueurs (forums publics). Chaque entrée distingue le fait observé de l'interprétation ; toute correction est versionnée, jamais effacée.</p>
+<div class="notice"><strong>Jeu responsable.</strong> Chicken Road 2 est un jeu d'argent : vous pouvez perdre votre mise, et sur la durée la maison gagne. Fixez un budget de perte maximum <em>avant</em> de jouer, décidez votre point d'encaissement <em>avant</em> le tour. 18+. Ne jouez jamais sous pression.</div>
+<h2>FAQ</h2>
+<p><strong>Comment le journal est-il établi ?</strong><br>En croisant la page du studio, des fiches opérateurs et des signaux joueurs, avec deux sources indépendantes minimum pour le label « Confirmé ».</p>
+<p><strong>Puis-je réutiliser les données ?</strong><br>Oui — le CSV est fait pour ça. Citez la source.</p>
+<p><strong>Un changement manque ?</strong><br>Ouvrez une « issue » sur le dépôt avec vos sources : si c'est vérifiable, le journal est mis à jour.</p>
+<p><strong>La neutralité ?</strong><br>Publication indépendante, sans lien avec InOut Games.</p>
+<h2>Pour aller plus loin</h2>
+<ul>
+<li>Hub complet : <a href="https://chickenroadproductions.com/chicken-road-2/">chickenroadproductions.com/chicken-road-2/</a></li>
+<li>Quel type de joueur êtes-vous ? <a href="https://chickenroadproductions.com/player-type/">chickenroadproductions.com/player-type/</a></li>
+</ul>
+<footer>
+<p>Chicken Road Productions — publication indépendante. 18+ · Jeu responsable.</p>
+<p>Divulgation : certains liens peuvent être affiliés, sans surcoût pour vous et sans effet sur les données publiées.</p>
+</footer>
+</body>
+</html>
